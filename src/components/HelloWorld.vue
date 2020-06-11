@@ -82,6 +82,9 @@ export default {
         border-radius: 10px;
         float: left;
         font-weight: 700;
+        &:focus::placeholder {
+          color: transparent;
+        }
         &:focus {
           outline: none;
         }
